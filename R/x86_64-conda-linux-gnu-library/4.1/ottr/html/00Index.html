@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: An R Autograding Extension for Otter-Grader</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> An R Autograding Extension for Otter-Grader
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;ottr&rsquo; version 1.1.3</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="check.html">check</a></td>
+<td>Execute checks in a test suite and return the 'TestFileResult' object from executing the test. Optionally prints results of the test to console.</td></tr>
+<tr><td style="width: 25%;"><a href="execute_script.html">execute_script</a></td>
+<td>Execute a string as an R script and return the environment from that execution.</td></tr>
+<tr><td style="width: 25%;"><a href="export.html">export</a></td>
+<td>Export a Jupyter Notebook to a zip file for submission.</td></tr>
+<tr><td style="width: 25%;"><a href="grade_script.html">grade_script</a></td>
+<td>Execute a script, parse check outputs, and run additional tests specified by the glob pattern 'tests_glob' on the test environment.</td></tr>
+<tr><td style="width: 25%;"><a href="load_test_cases.html">load_test_cases</a></td>
+<td>Loads test case data from a test file. Executes the file and grabs the global 'test' variable, which should be a 'list'.</td></tr>
+<tr><td style="width: 25%;"><a href="make_secret.html">make_secret</a></td>
+<td>Randomly generate a string of 'n_chars' sampled at random from 'valid_chars'.</td></tr>
+<tr><td style="width: 25%;"><a href="results_to_json.html">results_to_json</a></td>
+<td>Export a list of 'TestFileResult' objects to a JSON string</td></tr>
+<tr><td style="width: 25%;"><a href="results_to_list.html">results_to_list</a></td>
+<td>Convert a list of 'TestFileResult' objects to a JSON-like object of the correct form for writing results for Gradescope.</td></tr>
+<tr><td style="width: 25%;"><a href="run_autograder.html">run_autograder</a></td>
+<td>Run autograder in a Gradescope container and return the results as a properly-formatted JSON string</td></tr>
+<tr><td style="width: 25%;"><a href="TestCase.html">TestCase</a></td>
+<td>A test case for Ottr. Contains configurations and code to be executed for the test.</td></tr>
+<tr><td style="width: 25%;"><a href="TestCaseResult.html">TestCaseResult</a></td>
+<td>A utility class for tracking the results of a 'TestCase'</td></tr>
+<tr><td style="width: 25%;"><a href="TestFileResult.html">TestFileResult</a></td>
+<td>A collection of test case results that correspond to a single test file</td></tr>
+<tr><td style="width: 25%;"><a href="update_ast_check_calls.html">update_ast_check_calls</a></td>
+<td>Traverse an AST (a list of expressions) and change calls of the form '. = ottr::check(...)' so that they are appended to a list with name 'list_name'.</td></tr>
+<tr><td style="width: 25%;"><a href="VALID_EXPR_CHARS.html">VALID_EXPR_CHARS</a></td>
+<td>A string containing characters that can be made into a valid variable name. Does not include any digits because randomly sampling with them included could result in an invalid variable name.</td></tr>
+<tr><td style="width: 25%;"><a href="valid_syntax.html">valid_syntax</a></td>
+<td>Determine whether a code snippet has any syntax errors.</td></tr>
+</table>
+</body></html>

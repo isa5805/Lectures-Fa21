@@ -1,0 +1,42 @@
+TestCase                A test case for Ottr. Contains configurations
+                        and code to be executed for the test.
+TestCaseResult          A utility class for tracking the results of a
+                        'TestCase'
+TestFileResult          A collection of test case results that
+                        correspond to a single test file
+VALID_EXPR_CHARS        A string containing characters that can be made
+                        into a valid variable name. Does not include
+                        any digits because randomly sampling with them
+                        included could result in an invalid variable
+                        name.
+check                   Execute checks in a test suite and return the
+                        'TestFileResult' object from executing the
+                        test. Optionally prints results of the test to
+                        console.
+execute_script          Execute a string as an R script and return the
+                        environment from that execution.
+export                  Export a Jupyter Notebook to a zip file for
+                        submission.
+grade_script            Execute a script, parse check outputs, and run
+                        additional tests specified by the glob pattern
+                        'tests_glob' on the test environment.
+load_test_cases         Loads test case data from a test file. Executes
+                        the file and grabs the global 'test' variable,
+                        which should be a 'list'.
+make_secret             Randomly generate a string of 'n_chars' sampled
+                        at random from 'valid_chars'.
+results_to_json         Export a list of 'TestFileResult' objects to a
+                        JSON string
+results_to_list         Convert a list of 'TestFileResult' objects to a
+                        JSON-like object of the correct form for
+                        writing results for Gradescope.
+run_autograder          Run autograder in a Gradescope container and
+                        return the results as a properly-formatted JSON
+                        string
+update_ast_check_calls
+                        Traverse an AST (a list of expressions) and
+                        change calls of the form '. = ottr::check(...)'
+                        so that they are appended to a list with name
+                        'list_name'.
+valid_syntax            Determine whether a code snippet has any syntax
+                        errors.

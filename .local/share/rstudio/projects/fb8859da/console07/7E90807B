@@ -1,0 +1,40 @@
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ [Kisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ 
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ g[Kgit config --global iser[K[K[K[Kuser.name "Is abella"
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ git config --global user.email "i sgonzal@ucsd.edu"
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ sss[Kh-ker[Kygen
+Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/isgonzal/.ssh/id_rsa): Created directory '/home/isgonzal/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/isgonzal/.ssh/id_rsa
+Your public key has been saved in /home/isgonzal/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:AF6898N7jFM4JJSy2+YIWVZWTmG3Kq6LLhx8Ns5B354 isgonzal@dsmlp-jupyter-isgonzal
+The key's randomart image is:
++---[RSA 3072]----+
+|    ...  o=..    |
+|   . oo =+ . .   |
+|    . .B  . .    |
+|    . =.o ..     |
+| . . = =S=..     |
+|  o B o.+.* .    |
+| . * + =.. B     |
+|  o o...E + o    |
+|   oo o.   o     |
++----[SHA256]-----+
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ cat `[K~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDSxBDtxJraN+WWfwIX7va3Ram+KVbQIGhVKO4s/AswsKYJMxb7/1G6OUzST7h9Xore9CO+9Wi0zEd5+3y1nvXzQ63wO9IlxC5zaRDbkjBcoU5e1DDD8XkPCS1h0hI8kmWLxnbIv/jUtrV7E/12a2KQY9IZbxavm2zlVvDI/+MSrqVf31qRHymARFO+pqB0CahI0wsQzmpcJPD+bpICluFU1Rpu7poN/sZJfMbkiR50P9qI1o1LR9+vMD2BPjEYOFF7x5WKDDbd5fsBRRGzPhZ6ywmfmpElBAQdEHzx3ZLJeeCywpc+w3tahGo6N4KoVRmZhtpVRsjybJ9kB2MDMM0KJ7MpxPGM0Mn2MrfE6nLaZvUuNXbiJ80TNK2muD2bpuaUVMjcpYpaSaSTsJZ5px+C96WCI70awNwqoNAZvyOhxadtSS1BChewC33Pydo4dpaPw9S2K5vBVFbqCjf+lMVEVprid/ihB+HnnSTqX7ejAgFqcR2OodrlYhpoFoNALUk= isgonzal@dsmlp-jupyter-isgonzal
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ git@github.com
+bash: git@github.com: command not found
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ ssh git@gitthub.com
+ssh git@github.com
+
+esc
+ssh: connect to host gitthub.com port 22: Connection timed out
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ ssh git@github.com
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+PTY allocation request failed on channel 0
+Hi isa5805! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ 

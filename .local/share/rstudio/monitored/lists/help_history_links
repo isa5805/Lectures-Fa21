@@ -1,0 +1,4 @@
+help/doc/home/,Home
+help/library/readr/html/read_delim.html,R: Read a delimited file (including csv & tsv) into a tibble
+help/library/dplyr/html/storms.html,R: Storm tracks data
+help/library/forcats/html/fct_inorder.html,"R: Reorder factor levels by first appearance, frequency, or..."

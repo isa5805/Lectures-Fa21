@@ -1,0 +1,37 @@
+]0;/home/isgonzal/COGS 137/hw02-fa21-isa5805isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ [Kisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ getwd
+bash: getwd: command not found
+]0;/home/isgonzal/COGS 137/hw02-fa21-isa5805isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ getwd()
+> ^C
+]0;/home/isgonzal/COGS 137/hw02-fa21-isa5805isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ cd
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ ls
+'COGS 108'  'COGS 137'	 DiscussionLab2   DiscussionLab3   R
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ cd 'co[K[KCogs[K[K[K)[KOGS 137'
+]0;/home/isgonzal/COGS 137isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137$ ls
+ demo01-bechdel-isa5805   hw01-fa21-isa5805   kms	      lab04-isa5805   R_demo
+ exam01-isa5805		  hw02-fa21-isa5805   lab01-isa5805   practice	      RmarkDowndemo.Rmd
+'exam practice'		  hwimage.png	      lab02-isa5805   R
+]0;/home/isgonzal/COGS 137isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137$ hwimage.j[Kpng
+bash: hwimage.png: command not found
+]0;/home/isgonzal/COGS 137isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137$ cd
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ [Kisgonzal@dsmlp-jupyter-isgonzal:~$ getwd()
+> ^C
+cd
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ ls
+'COGS 108'  'COGS 137'	 DiscussionLab2   DiscussionLab3   R
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ 'COS[KGS [K[K[K[K[K[Ko[KCOGS 137' cd
+> ^C
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ ls
+'COGS 108'  'COGS 137'	 DiscussionLab2   DiscussionLab3   R
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ ls 'c[KCO[K[K[KCOGS 108[K[K[K3[K137'
+> 
+> ^C
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ ^C
+]0;/home/isgonzalisgonzal@dsmlp-jupyter-isgonzal:~$ cd 'COGS 137'
+]0;/home/isgonzal/COGS 137isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137$ ls
+ demo01-bechdel-isa5805   hw01-fa21-isa5805   lab01-isa5805   practice	 RmarkDowndemo.Rmd
+ exam01-isa5805		  hw02-fa21-isa5805   lab02-isa5805   R
+'exam practice'		  kms		      lab04-isa5805   R_demo
+]0;/home/isgonzal/COGS 137isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137$ cd hw02-fa21-isa5805
+]0;/home/isgonzal/COGS 137/hw02-fa21-isa5805isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ lsz=[K[K
+core.10338  core.425  hw02-fa21-isa5805.Rproj  hw-02.Rmd  hwimage2.png	hwimage.png
+]0;/home/isgonzal/COGS 137/hw02-fa21-isa5805isgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/hw02-fa21-isa5805$ 

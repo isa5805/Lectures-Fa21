@@ -1,0 +1,10 @@
+OCSdata                 OCSdata: A package for downloading data from
+                        the 'Open Case Studies' repository
+clone_ocs               Clone Case Study Repository
+extra_data              Download Open Case Study Extra Data
+imported_data           Download Open Case Study Imported Data
+raw_data                Download Open Case Study Raw Data
+simpler_import_data     Download Open Case Study Simpler Import Data
+wrangled_csv            Download Open Case Study Wrangled Data - CSVs
+wrangled_rda            Download Open Case Study Wrangled Data - RDAs
+zip_ocs                 Download Case Study Repository Zip File

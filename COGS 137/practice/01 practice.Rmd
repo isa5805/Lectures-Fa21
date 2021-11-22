@@ -1,0 +1,118 @@
+---
+title: "practice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(palmerpenguins)
+```
+
+command option i creates r ticks for code chunks
+```{r}
+me <- "Isabella"
+b <- 3
+a <- 3L
+list(me, a, b)
+whatvariable <-class(me)
+
+```
+
+practiced concatenation: tried to think about what R coerces the variables to be
+1. characters
+2. number
+3. number
+1:3 means list 1 2 3
+4. number
+5. boolean 
+
+I ran str() first and then class(),
+
+lets try it out with the code she gave in class they are in order 
+
+```{r}
+c1 <- c(1, NA+1L, "C")
+c2 <- c(1L / 0, NA)
+c3 <- c(1:3, 5)
+c4 <- c(3L, NaN+1L)
+c5 <- c(NA, TRUE)
+```
+using comparison operators to assign variables 
+```{r}
+var_30 <- 15 + 15
+true_var <- 5 < 6
+print(var_30)
+print(true_var)
+paste(var_30, true_var)
+```
+case_when() example
+what happens if i only specify when i change a to A
+create tibble and then test out case_when
+```{r}
+test <- tibble(x = 1:3, y = c("a", "b", "c"))
+
+test |> 
+  mutate(new_col = case_when(y == "a" ~ "A"))
+# once one row has something thats true it doesnt look at any other conditions in the data set 
+
+bike <- read_csv2("https://raw.githubusercontent.com/COGS137/datasets/main/nc_bike_crash.csv", 
+                  na = c("NA", "", "."))
+#she asks us to see how many accidents in our dataset required an ambulance ride and had the crash type "bicyclist lost control - mechanical problems, my code:
+
+temp <- bike |>
+    filter(AmbulanceR == "Yes")
+ temp <- temp |> filter(Crash_Type == "Bicyclist Lost Control - Mechanical Problems")
+nrow(temp)
+
+#how she did it: 
+#group_by(Crash_Type) |> 
+# summarise (number = n())
+
+ 
+```
+last thing from lecture
+"he wants all hike accidents from his County (Cumberland), but he only wants to know the road's speed limit, the age of the biker, and if alcohol was involved. 
+
+```{r}
+for_boss<- bike |> 
+  filter(County == "Cumberland")
+for_boss <- for_boss |>
+    select(Speed_Limi, Bike_Alc_D, Bike_Age)
+```
+
+lecture 8: 10/11/21
+install the package "palmerpenguins"
+looking at ggplot2
+aes creates an aesthetic 
+labs creates labels 
+
+```{r}
+  #install.packages("ggplot2")
+#install.packages("palmerpenguins")
+#library(palmerpenguins)
+glimpse(penguins)
+
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species, shape = species)
+) +
+  geom_point() +
+  labs(
+    title = "FLipper Length and Body Mass",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo",
+    x = "Flipper Length (mm)",
+    y = "Body Mass (g)",
+    color = "Species",
+    caption = "Source: Palmer Penguins"
+  )
+#default for caption is bottom right 
+# you can also pipe the data into ggplot |>
+```
+lecture 12: characterizing relationships with models
+```{r}
+pp <- read_csv("https://raw.githubusercontent.com/COGS137/datasets/main/paris_paintings.csv", na = c("n/a", "", "NA"))
+
+
+```

@@ -1,0 +1,9 @@
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ [Kisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ ssh git@github.com
+The authenticity of host 'github.com (140.82.113.4)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.113.4' (RSA) to the list of known hosts.
+PTY allocation request failed on channel 0
+Hi isa5805! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+]0;/home/isgonzal/R_demoisgonzal@dsmlp-jupyter-isgonzal:~/R_demo$ 

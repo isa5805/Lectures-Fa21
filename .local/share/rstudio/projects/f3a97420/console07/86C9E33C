@@ -1,0 +1,15 @@
+]0;/home/isgonzal/COGS 137/cs01_Trash_Pandasisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/cs01_Trash_Pandas$ [Kisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/cs01_Trash_Pandas$ git commit -am "your commit message"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksos"
+[main d9f4cc1] sos
+]0;/home/isgonzal/COGS 137/cs01_Trash_Pandasisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/cs01_Trash_Pandas$ git pull
+Already up to date.
+]0;/home/isgonzal/COGS 137/cs01_Trash_Pandasisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/cs01_Trash_Pandas$ git push
+Enumerating objects: 28, done.
+Counting objects:   4% (1/23)Counting objects:   8% (2/23)Counting objects:  13% (3/23)Counting objects:  17% (4/23)Counting objects:  21% (5/23)Counting objects:  26% (6/23)Counting objects:  30% (7/23)Counting objects:  34% (8/23)Counting objects:  39% (9/23)Counting objects:  43% (10/23)Counting objects:  47% (11/23)Counting objects:  52% (12/23)Counting objects:  56% (13/23)Counting objects:  60% (14/23)Counting objects:  65% (15/23)Counting objects:  69% (16/23)Counting objects:  73% (17/23)Counting objects:  78% (18/23)Counting objects:  82% (19/23)Counting objects:  86% (20/23)Counting objects:  91% (21/23)Counting objects:  95% (22/23)Counting objects: 100% (23/23)Counting objects: 100% (23/23), done.
+Delta compression using up to 128 threads
+Compressing objects:   7% (1/14)Compressing objects:  14% (2/14)Compressing objects:  21% (3/14)Compressing objects:  28% (4/14)Compressing objects:  35% (5/14)Compressing objects:  42% (6/14)Compressing objects:  50% (7/14)Compressing objects:  57% (8/14)Compressing objects:  64% (9/14)Compressing objects:  71% (10/14)Compressing objects:  78% (11/14)Compressing objects:  85% (12/14)Compressing objects:  92% (13/14)Compressing objects: 100% (14/14)Compressing objects: 100% (14/14), done.
+Writing objects:   7% (1/14)Writing objects:  14% (2/14)Writing objects:  21% (3/14)Writing objects:  28% (4/14)Writing objects:  35% (5/14)Writing objects:  42% (6/14)Writing objects:  50% (7/14)Writing objects:  57% (8/14)Writing objects:  64% (9/14)Writing objects:  71% (10/14)Writing objects:  78% (11/14)Writing objects:  85% (12/14)Writing objects:  92% (13/14)Writing objects: 100% (14/14)Writing objects: 100% (14/14), 6.11 KiB | 1.22 MiB/s, done.
+Total 14 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 3 local objects.[K
+To github.com:COGS137/cs01_Trash_Pandas.git
+   a6a6cb6..d9f4cc1  main -> main
+]0;/home/isgonzal/COGS 137/cs01_Trash_Pandasisgonzal@dsmlp-jupyter-isgonzal:~/COGS 137/cs01_Trash_Pandas$ 
